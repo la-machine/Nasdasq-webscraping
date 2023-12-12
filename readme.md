@@ -22,7 +22,7 @@ Before running the application, ensure you have the following installed:
    ```bash
    git clone https://github.com/la-machine/Nasdasq-webscraping.git
    cd Nasdasq-webscraping
-2. python -m venv venv:
+2. python -m venv venv:  
 **- On windows:**
   - .\venv\Scripts\activate  
 **- On mac/linux:**
@@ -66,7 +66,7 @@ You can customize the appearance of the candlestick chart and hover information 
 ```
 ## Colaborators:
  - **Developer**
-   - **Name:**  *Youaleu .T. Frank Loic*  
+   - **Name:**  *Youaleu TCHOUASSI Frank Loic*  
    - **Email:** *frankpythagore@gmail.com*  
  - **Surpervisor**
    - **Name:** *Mr Nwal Frank*  
