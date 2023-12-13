@@ -70,7 +70,7 @@ You can customize the appearance of the candlestick chart and hover information 
    - **Email:** *frankpythagore@gmail.com*  
  - **Surpervisor**
    - **Name:** *Mr Nwal Frank*  
-   - **Email:** *..*
+   - **Email:** *franck.nwal@mobilehub.com*
 
 
 
