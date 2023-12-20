@@ -32,6 +32,7 @@ RUN adduser \
 # Leverage a cache mount to /root/.cache/pip to speed up subsequent builds.
 # Leverage a bind mount to requirements.txt to avoid having to copy them into
 # into this layer.
+RUN pip install --upgrade pip
 RUN --mount=type=cache,target=/root/.cache/pip \
     --mount=type=bind,source=requirements.txt,target=requirements.txt \
     python -m pip install -r requirements.txt
@@ -47,4 +48,4 @@ EXPOSE 8000
 
 # Run the application.
 #CMD gunicorn 'venv.Lib.site-packages.werkzeug.wsgi' --bind=0.0.0.0:8000
-CMD gunicorn app:app --bind=0.0.0.0:8000
+CMD gunicorn app:app --bind=0.0.0.0:8000 --timeout 300
